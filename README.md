@@ -1,6 +1,6 @@
 # Install CyberPanel on WSL2 Windows
 
-## DO NOT USE YET - DEV.
+## Beta Version. Use at your own risk.
 
 #### This script can help you to install CyberPanel on Windows.
 
