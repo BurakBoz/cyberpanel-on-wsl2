@@ -5,6 +5,11 @@ yum install epel-release -q -y && yum -y -q update && yum upgrade -y -q
 dnf install python2 -y
 ln -s /usr/bin/python2 /usr/bin/python
 
+sudo mv /usr/bin/systemctl /usr/bin/systemctl.old
+curl https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl.py >temp
+sudo mv temp /usr/bin/systemctl
+sudo chmod +x /usr/bin/systemctl
+
 echo "Installing distrod (systemd for WSL2)"
 curl -L -O "https://raw.githubusercontent.com/nullpo-head/wsl-distrod/main/install.sh"
 chmod +x install.sh
