@@ -25,22 +25,18 @@ Those extra cronjobs for updates can broke your system you can delete those with
 
 ### Instructions
 
-1. Make sure you're installed WSL2.
-2. Download this repo
-3. Download https://github.com/AlmaLinux/wsl-images/releases/download/v8.5.3-RC3/install_amd64.tar.gz
-4. install_amd64.tar.gz, install.bat, install.sh put all files to same folder.
-5. Right click install.bat and "Run As Administrator"
-6. Read the screen carefully
-7. DO NOT say YES to reboot question after cyberpanel installed. SAY NO.
-8. Enjoy your CyberPanel on Windows!
-9. Go to https://127.0.0.1:8090 use your credentials.
-10. run `wsl -d cyberpanel` command from cmd for access to cyberpanel linux shell.
+1. Download this repo
+2. Right click install.bat and "Run As Administrator"
+3. Read the screen carefully and follow the instructions.
+4. DO NOT say YES to reboot question after cyberpanel installed. SAY NO. NO. NO. ONLY NO. If you say yes here installation will fail.
+5. Enjoy your CyberPanel on Windows!
+6. Go to https://127.0.0.1:8090 use your credentials.
+7. run `wsl -d cyberpanel` command from cmd for access to cyberpanel linux shell.
 
 
 ### Quick installation with git command (RUN CMD AS ADMINISTRATOR)
 ````
 git clone https://github.com/BurakBoz/cyberpanel-on-wsl2.git
 cd cyberpanel-on-wsl2
-wget https://github.com/AlmaLinux/wsl-images/releases/download/v8.5.3-RC3/install_amd64.tar.gz
 install.bat
 ````
