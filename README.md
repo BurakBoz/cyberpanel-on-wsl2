@@ -1,7 +1,5 @@
 # Install CyberPanel on WSL2 Windows
 
-## Beta Version. Use at your own risk.
-
 #### This script can help you to install CyberPanel on Windows.
 
 1. It uses AlmaLinux 8 rootfs.
